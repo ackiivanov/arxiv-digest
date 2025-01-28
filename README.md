@@ -1,7 +1,7 @@
 # arXiv
 Get your daily arXiv digest
 
-Given a list of categories to check, this program will give you a complete list with title, arxiv id, author categories, comments and abstract. You also have the option of blacklisting certain categoies, as well as keywords in titles and abstracts for more fine grained control of your digest. Once the full list of papers satisfying all relevant criteria is presented the user may choose certain papers to download.
+Given a list of categories to check, this program will give you a complete list with title, arxiv id, author, categories, comments and abstract. You also have the option of blacklisting certain categoies, as well as keywords in titles and abstracts for more fine grained control of your digest. Once the full list of papers satisfying all relevant criteria is presented the user may choose certain papers to download.
 
 ## Requirements
 
