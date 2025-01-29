@@ -503,7 +503,7 @@ def send_email(from_email=EMAIL, from_password=EMAIL_LOGIN, to_email=EMAIL):
   server.ehlo()
   server.starttls()
   server.login(from_email, from_password)
-  server.sendmail(from_email, to_email, msg.as_string())
+  server.sendmail(from_email, to_email, email_data.as_string())
   server.close()
 
   return 0
